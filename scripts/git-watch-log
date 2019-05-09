@@ -1,0 +1,3 @@
+#!/bin/sh
+
+watch -t --color -n 1 "git -c color.diff=always log --graph --oneline --decorate=short --abbrev-commit | head -n 80"
