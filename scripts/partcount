@@ -1,0 +1,3 @@
+#!/bin/sh
+
+hive --silent -e "show partitions $1" | wc -l
