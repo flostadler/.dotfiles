@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -E "s:<text [^>]*>UNREGISTERED</text>::g" $1 | convert - $2
